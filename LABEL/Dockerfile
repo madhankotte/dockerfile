@@ -1,3 +1,3 @@
 FROM almalinux:9
 LABEL cource="docker" \
-      author= "madhan"
+      author="madhan"
