@@ -1,2 +1,3 @@
+ARG BASE=amazonlinux
 ARG VERSION=2023
-FROM amazonlinux:${VERSION}
+FROM ${BASE}:${VERSION}
