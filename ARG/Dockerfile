@@ -1,2 +1,2 @@
-ARG VERSTION
-FROM amazonlinux:${VERSTION:-9}
+ARG VERSION=2023
+FROM amazonlinux:${VERSION}
