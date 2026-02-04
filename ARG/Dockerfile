@@ -1,5 +1,5 @@
 ARG VERSION
-FROM amazonlinux:${VERSION:-9}
+FROM amazonlinux:${VERSION:-2023}
 ARG  course="docker" \
      author="madhankotte"
 ENV course=${course} \
