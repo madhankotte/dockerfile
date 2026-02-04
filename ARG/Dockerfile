@@ -1,0 +1,2 @@
+ARG VERSTION
+FROM amazonlinux:${VERSTION:-9}
